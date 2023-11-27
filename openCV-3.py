@@ -13,4 +13,4 @@ while True:
     cv2.moveWindow('my WEBcam',0,0)
     if cv2.waitKey(1) & 0xff ==ord('q'):
         break
-cam.release()
+cam.release() 
