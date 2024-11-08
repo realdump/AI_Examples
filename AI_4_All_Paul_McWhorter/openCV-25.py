@@ -9,3 +9,6 @@ for root,dirs,files in os.walk(imageDir):
     print('My Files in root', files)
     for file in files:
         print('Your Guy Is:', file)
+        fullFilePath=os.path.join(root,file)
+        print(fullFilePath)
+        print(root+file)
